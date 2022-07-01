@@ -11,7 +11,7 @@ route.get('/products/:Id', shopController.getProductById);
 
 route.get('/cart', shopController.getCart);
 
-route.post('/cart/:Id', shopController.postCart);
+route.post('/cart', shopController.postCart);
 
 route.get('/order', shopController.getOrder);
 
